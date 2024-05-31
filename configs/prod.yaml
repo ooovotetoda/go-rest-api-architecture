@@ -1,0 +1,13 @@
+env: "prod"
+postgres:
+  host: "255.255.255.255"
+  port: "5432"
+  user: "users"
+  password: 'password'
+  db_name: "db_name"
+server:
+  address: "0.0.0.0:8080"
+  timeout: 4s
+  idle_timeout: 60s
+  user: "myuser"
+  password: "mypass"

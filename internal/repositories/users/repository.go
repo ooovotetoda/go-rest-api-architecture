@@ -1,9 +1,9 @@
 package users
 
 import (
-	"cabinet-wooffie-api/internal/database/sqlc"
 	"context"
 	"github.com/jackc/pgx/v5/pgxpool"
+	"go-rest-api-architecture/internal/database/sqlc"
 )
 
 type UsersRepository struct {

@@ -1,10 +1,10 @@
 package server
 
 import (
-	"cabinet-wooffie-api/internal/configs"
 	"context"
 	"github.com/jackc/pgx/v5/pgxpool"
 	_ "github.com/joho/godotenv/autoload"
+	"go-rest-api-architecture/internal/configs"
 	"log/slog"
 	"net/http"
 )

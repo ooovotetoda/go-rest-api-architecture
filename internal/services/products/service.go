@@ -1,8 +1,8 @@
 package products
 
 import (
-	"cabinet-wooffie-api/internal/models"
-	"cabinet-wooffie-api/internal/repositories/products"
+	"go-rest-api-architecture/internal/models"
+	"go-rest-api-architecture/internal/repositories/products"
 )
 
 type ProductsService struct {

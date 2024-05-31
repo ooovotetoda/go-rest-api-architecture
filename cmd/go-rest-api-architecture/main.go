@@ -1,12 +1,12 @@
 package main
 
 import (
-	"cabinet-wooffie-api/internal/configs"
-	"cabinet-wooffie-api/internal/database/postgres"
-	setupLog "cabinet-wooffie-api/internal/lib/logger/setup"
-	"cabinet-wooffie-api/internal/lib/logger/sl"
-	"cabinet-wooffie-api/internal/server"
 	"context"
+	"go-rest-api-architecture/internal/configs"
+	"go-rest-api-architecture/internal/database/postgres"
+	setupLog "go-rest-api-architecture/internal/lib/logger/setup"
+	"go-rest-api-architecture/internal/lib/logger/sl"
+	"go-rest-api-architecture/internal/server"
 	"log/slog"
 	"os"
 )

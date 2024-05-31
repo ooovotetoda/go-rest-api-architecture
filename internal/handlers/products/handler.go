@@ -1,13 +1,13 @@
 package products
 
 import (
-	resp "cabinet-wooffie-api/internal/lib/api/response"
-	"cabinet-wooffie-api/internal/lib/logger/sl"
-	"cabinet-wooffie-api/internal/services/products"
 	"context"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/render"
+	resp "go-rest-api-architecture/internal/lib/api/response"
+	"go-rest-api-architecture/internal/lib/logger/sl"
+	"go-rest-api-architecture/internal/services/products"
 	"log/slog"
 	"net/http"
 	"strconv"

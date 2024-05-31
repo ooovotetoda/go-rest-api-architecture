@@ -1,4 +1,4 @@
-module cabinet-wooffie-api
+module go-rest-api-architecture
 
 go 1.22
 

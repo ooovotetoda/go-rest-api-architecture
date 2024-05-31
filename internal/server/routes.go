@@ -1,15 +1,15 @@
 package server
 
 import (
-	productsHandlers "cabinet-wooffie-api/internal/handlers/products"
-	usersHandlers "cabinet-wooffie-api/internal/handlers/users"
-	mwCors "cabinet-wooffie-api/internal/middleware/cors"
-	productsRepository "cabinet-wooffie-api/internal/repositories/products"
-	usersRepository "cabinet-wooffie-api/internal/repositories/users"
-	productsServices "cabinet-wooffie-api/internal/services/products"
-	usersServices "cabinet-wooffie-api/internal/services/users"
 	"context"
 	"github.com/jackc/pgx/v5/pgxpool"
+	productsHandlers "go-rest-api-architecture/internal/handlers/products"
+	usersHandlers "go-rest-api-architecture/internal/handlers/users"
+	mwCors "go-rest-api-architecture/internal/middleware/cors"
+	productsRepository "go-rest-api-architecture/internal/repositories/products"
+	usersRepository "go-rest-api-architecture/internal/repositories/users"
+	productsServices "go-rest-api-architecture/internal/services/products"
+	usersServices "go-rest-api-architecture/internal/services/users"
 	"log/slog"
 	"net/http"
 

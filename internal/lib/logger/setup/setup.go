@@ -1,7 +1,7 @@
 package setup
 
 import (
-	"cabinet-wooffie-api/internal/lib/logger/handlers/slogpretty"
+	"go-rest-api-architecture/internal/lib/logger/handlers/slogpretty"
 	"log/slog"
 	"os"
 )

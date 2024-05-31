@@ -1,9 +1,9 @@
 package users
 
 import (
-	"cabinet-wooffie-api/internal/database/sqlc"
-	"cabinet-wooffie-api/internal/repositories/users"
 	"context"
+	"go-rest-api-architecture/internal/database/sqlc"
+	"go-rest-api-architecture/internal/repositories/users"
 )
 
 type UsersService struct {

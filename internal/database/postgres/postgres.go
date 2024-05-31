@@ -1,12 +1,12 @@
 package postgres
 
 import (
-	"cabinet-wooffie-api/internal/configs"
 	"context"
 	"database/sql"
 	"fmt"
 	"github.com/jackc/pgx/v5/pgxpool"
 	_ "github.com/lib/pq"
+	"go-rest-api-architecture/internal/configs"
 )
 
 func New(cfg *configs.Config) (*pgxpool.Pool, error) {

@@ -1,11 +1,11 @@
 package products
 
 import (
-	"cabinet-wooffie-api/internal/database/sqlc"
-	"cabinet-wooffie-api/internal/models"
 	"context"
 	sq "github.com/Masterminds/squirrel"
 	"github.com/jackc/pgx/v5/pgxpool"
+	"go-rest-api-architecture/internal/database/sqlc"
+	"go-rest-api-architecture/internal/models"
 	"log"
 )
 

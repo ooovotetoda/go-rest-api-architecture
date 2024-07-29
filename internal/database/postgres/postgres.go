@@ -10,7 +10,7 @@ import (
 )
 
 func New(cfg *configs.Config) (*pgxpool.Pool, error) {
-	psqlInfo := fmt.Sprintf("host=%s port=%s users=%s "+
+	psqlInfo := fmt.Sprintf("host=%s port=%s user=%s "+
 		"password=%s dbname=%s sslmode=disable",
 		cfg.Postgres.Host, cfg.Postgres.Port, cfg.Postgres.User, cfg.Postgres.Password, cfg.Postgres.DBName)
 

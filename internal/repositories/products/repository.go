@@ -5,7 +5,7 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"go-rest-api-architecture/internal/database/sqlc"
-	"go-rest-api-architecture/internal/models"
+	"go-rest-api-architecture/internal/domain/models"
 	"log"
 )
 

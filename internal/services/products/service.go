@@ -1,7 +1,7 @@
 package products
 
 import (
-	"go-rest-api-architecture/internal/models"
+	"go-rest-api-architecture/internal/domain/models"
 	"go-rest-api-architecture/internal/repositories/products"
 )
 

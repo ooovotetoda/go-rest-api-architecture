@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/jackc/pgx/v5/pgxpool"
 	mwCors "go-rest-api-architecture/internal/middleware/cors"
-	product "go-rest-api-architecture/internal/server/routes/product"
-	user "go-rest-api-architecture/internal/server/routes/user"
+	product "go-rest-api-architecture/internal/routes/product"
+	user "go-rest-api-architecture/internal/routes/user"
 	"log/slog"
 	"net/http"
 
